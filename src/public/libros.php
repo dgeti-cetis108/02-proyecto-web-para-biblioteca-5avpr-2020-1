@@ -8,7 +8,7 @@
         <div class="card-body">
           <h5 class="card-title">Búsqueda</h5>
           <p class="card-text">Consulta el inventario de libros de la biblioteca.</p>
-          <a href="#" class="btn btn-primary">Consultar</a>
+          <a class="btn btn-primary" href="busqueda.php">Consultar</a>
         </div>
       </div>
     </div>
