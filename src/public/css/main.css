@@ -1,0 +1,18 @@
+/* Reglas personalizadas */
+:root {
+  --main-color: rgb(160,55,85);
+  --secondary-color: rgb(173,146,98);
+}
+
+.btn-main {
+  background-color: var(--secondary-color);
+}
+
+.btn-main:hover {
+  background-color: var(--main-color);
+}
+
+.login-form {
+  max-width: 600px;
+  margin: 30px auto;
+}
