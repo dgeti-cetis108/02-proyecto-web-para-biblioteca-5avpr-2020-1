@@ -1,4 +1,6 @@
-<?php require_once '../app/layouts/header.php'; ?>
+<?php
+require_once '../app/layouts/header.php';
+?>
 
   <!-- Agregar lo que generó Bootstrap Studio (Jumbotron) -->
   <div class="container">

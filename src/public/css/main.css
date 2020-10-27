@@ -8,7 +8,9 @@
   background-color: var(--secondary-color);
 }
 
-.btn-main:hover {
+.btn-main:hover,
+.btn-main:focus,
+.btn-main:active {
   background-color: var(--main-color);
 }
 

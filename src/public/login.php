@@ -1,4 +1,6 @@
-<?php require_once '../app/layouts/header.php'; ?>
+<?php
+require_once '../app/layouts/header.php';
+?>
 
 <div class="login-clean">
   <form method="post">

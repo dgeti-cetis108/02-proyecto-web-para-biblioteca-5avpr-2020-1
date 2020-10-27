@@ -1,4 +1,6 @@
-<?php require_once '../app/layouts/header.php'; ?>
+<?php
+require_once '../../app/layouts/header.php';
+?>
 
 <div class="container">
   <div class="row">
@@ -36,4 +38,4 @@
   
 </div>
 
-<?php require_once '../app/layouts/footer.php'; ?>
+<?php require_once '../../app/layouts/footer.php'; ?>

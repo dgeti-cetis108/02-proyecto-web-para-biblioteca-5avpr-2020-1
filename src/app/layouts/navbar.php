@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse d-md-flex"
             id="navcol-1">
             <ul class="nav navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="libros.php">Libros</a></li>
+                <li class="nav-item"><a class="nav-link" href="./libros">Libros</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Reportes</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Préstamos</a></li>
             </ul>
