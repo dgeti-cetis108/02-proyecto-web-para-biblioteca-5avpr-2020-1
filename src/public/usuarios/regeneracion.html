@@ -46,42 +46,28 @@
 
   <!-- Inicio Formulario de registro -->
   <div class="container">
-    <div class="col-sm-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+    <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
       <div class="card">
         <h5 class="card-header">
-          <i class="fa fa-edit"></i>&nbsp;
-          Perfil de usuario
+          <i class="fa fa-key"></i>&nbsp;
+          Recuperación de contraseña
         </h5>
         <div class="card-body">
           <form>
             <div class="form-group">
-              <label for="tipo">Tipo</label>
-              <input class="form-control" type="text" name="tipo" id="tipo" disabled value="Bibliotecario">
+              <label for="new_passwd1">Contraseña nueva</label>
+              <input class="form-control" type="password" name="new_passwd1" id="new_passwd1">
             </div>
             <div class="form-group">
-              <label for="usuario">Usuario</label>
-              <input class="form-control" type="text" name="usuario" id="usuario" disabled value="bibliotecario1">
-            </div>
-            <div class="form-group">
-              <label for="nombres">Nombre(s)</label>
-              <input class="form-control" type="text" name="nombres" id="nombres">
-            </div>
-            <div class="form-group">
-              <label for="apellidos">Apellidos</label>
-              <input class="form-control" type="text" name="apellidos" id="apellidos">
+              <label for="new_passwd2">Vuelve a escribir la contraseña nueva</label>
+              <input class="form-control" type="password" name="new_passwd2" id="new_passwd2">
             </div>
             <button class="btn btn-main">
               <i class="fa fa-save"></i>
-              Actualizar perfil
+              Grabar nueva contraseña
             </button>
           </form>
         </div>
-      </div>
-      <div class="card mt-4">
-        <span class="small text-center p-3">
-          ¿Quieres cambiar tu contraseña?
-          <a href="#" class="font-weight-bold">hazlo aquí</a>
-        </span>
       </div>
     </div>
   </div>
